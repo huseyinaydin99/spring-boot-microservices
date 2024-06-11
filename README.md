@@ -3,7 +3,7 @@
 ### Proje Özeti:
 Java 17, Spring Boot, Apache Kafka, RabbitMQ, MongoDB, PostgreSQL, Docker, Docker Compose, Zipkin, Kubernetes ve AWS teknolojilerini kullanarak geliştirilen bir mikroservis projesidir. Bu proje, dağıtık bir mimari üzerinde yüksek performanslı, ölçeklenebilir ve dayanıklı bir sistem oluşturmayı hedeflemiştir.
 
-#### Microservice Proje Şeması
+#### Microservice Proje Şeması:
 ![microservice_schema.png](microservice_schema.png)
 
 ### Mikroservis Mimarisi:
