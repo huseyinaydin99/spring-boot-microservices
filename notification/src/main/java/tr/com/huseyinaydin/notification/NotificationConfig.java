@@ -8,6 +8,15 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+//بسم الله الرحمن الرحيم
+/**
+ *
+ * @author Huseyin_Aydin
+ * @since 1994
+ * @category Spring Boot, Apache Kafka, RabbitMQ, MongoDB, PostgreSQL, Docker, Docker Compose, Zipkin, AWS ile Microservices çalışmamdır.
+ *
+ */
+
 @Configuration
 public class NotificationConfig {
 
@@ -37,7 +46,6 @@ public class NotificationConfig {
                 .to(internalTopicExchange())
                 .with(this.internalNotificationRoutingKey);
     }
-
 
     public String getInternalExchange() {
         return internalExchange;
